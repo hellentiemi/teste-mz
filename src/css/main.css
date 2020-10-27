@@ -1,0 +1,313 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    width: calc(100% - 16px);
+}
+.main-slider{
+   display: flex; 
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+   position: relative;
+
+}
+.main-slider .slider-item {
+    position: relative;
+}
+.main-slider .slider-item h1,
+.main-slider .slider-item h2,
+.main-slider .slider-item button{
+    position: absolute;
+    z-index: 1;
+}
+.main-slider .slider-item img{
+    width: 100%;
+}
+.main-slider .slider-item h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    top: 25%;
+    left: 10%;
+}
+.main-slider .slider-item h2{
+    font-size: 20px;
+    width: 40%;
+    color: #FFFFFF;
+    top: 45%;
+    left: 10%;
+}
+.main-slider .slider-item button{
+    background: #FAA500;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 128px;
+    height: 48px;
+    bottom: 30%;
+    border-style: none;
+    cursor: pointer;
+    left: 10%;
+}
+.main-slider .slick-arrow{
+    background-image: url(../img/seta.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 0;
+    border: 0;
+    width: 20px;
+    height: 32px;
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 50%;
+    margin: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+.main-slider .slick-arrow.slick-next{
+    right: 0;
+    left: auto;
+    transform: rotate(0deg);
+}
+.content h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 21px 0;
+}
+.content-info{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    height: 64px;
+    align-items: center;
+    margin-left: 24px;
+}
+.content-info li{
+    background: #EFEFEF;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+.content-info img{
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 22px;
+}
+
+.content-info h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+.content-info p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.marcas p{
+    display: flex;
+    align-items: center;
+    color: #353535;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 74px 0 40px 0;
+    justify-content: center;
+
+}
+.marcas .marcas-p{
+    display: flex;
+
+}
+.marcas-p li{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 20%;
+    padding: 0 10px 80px 0;
+}
+.marcas-p li img{
+    width: 100%;
+}
+.slider-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #353535;
+    margin-bottom: 20px;
+}
+.slider-content{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.slider-content img{
+    width: 100%;
+    height: auto;
+}
+.slider-content .cor{
+    width: 27px;
+    height: 27px;
+    background: #fff;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-style: none;
+}
+.slider-content .cor[color="bege"]{
+    background: #DEAC71;
+}
+.slider-content .cor[color="salmao"]{
+    background: #D37164;
+}
+.slider-content .cor[color="azul"]{
+    background: #6497D3;
+}
+.slider-content .cor[color="marine"]{
+    background: #3C3B79;
+}
+.slider-content .cor[color="preto"]{
+    background: #1C1A19;
+}
+.slider-content .cor[color="vermelho"]{
+    background: #D84E4B;
+}
+.slider-content .cor[color="bege claro"]{
+    background: #CFC9B0;
+}
+.slider-content .cor[color="cinza"]{
+    background: #EAE9E5;
+}
+.preco{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.titulo{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.descricao{
+    font-size: 12px;
+    margin-top: 10px;
+    min-height: 40px;
+    line-height: 18px;
+}
+.botao{
+    background: #FAA500;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+}
+.slider-shelf .slick-arrow{
+    background-image: url(../img/seta.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 0;
+    border: 0;
+    width: 20px;
+    height: 32px;
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 50%;
+    margin: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+.slider-shelf .slick-arrow.slick-next{
+    right: 0;
+    left: auto;
+    transform: rotate(0deg);
+}
+.main-content{
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 10px;
+    padding: 30px 0 40px 0;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.main-content1{
+    width: 30%;
+}
+.main-content1 h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+.main-content1 p{
+    color: #000000;
+    padding-right: 64px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.main-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+.main-img {
+    width: 70%;
+}
+.main-img img{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+.main-email p{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-right: 20px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email input{
+    background: #EFEFEF;
+    height: 40px;
+    border: 1px solid #353535;
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    align-items: center;
+    display: flex;
+    color: #353535;
+    width: 630px;
+    padding-left: 24px;
+    font-size: 14px;
+    margin: 40px 0;
+}
+.email button{
+    background: #FAA500;
+    border-radius: 8px;
+    width: 131px;
+    height: 40px;
+    border-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: -5px;
+    margin: 40px 0;
+}

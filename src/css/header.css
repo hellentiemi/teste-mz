@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    background: #FFFFFF;
+}
+.pit-bar{
+    background-color:#353535;
+    width: auto;
+    height: 24px;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main-menu{
+    display: flex;
+    height: 88px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.busca{
+    display: flex;
+    width: 50%;
+}
+.busca input{
+    background: #EFEFEF;
+    border-radius: 10px 0 0 10px;
+    height: 40px;
+    border-style: none;
+    align-items: center;
+    display: flex;
+    color: #353535;
+    width: 100%;
+    padding-left: 24px;
+}
+.busca button{
+    background: #FAA500;
+    border-radius: 8px;
+    height: 40px;
+    width: 119px;
+    border-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.user-menu{
+    display: flex;
+}
+.minha-conta{
+    align-items: center;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.minha-conta:hover{
+    border: 1px solid #FAA500;
+}
+.minha-conta img{
+    margin-right: 8px;
+}
+.minha-conta a{
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    height: 21px;
+    text-decoration: none;
+    padding: 10px;
+}
+.favorito{
+    align-items: center;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.favorito:hover{
+    border: 1px solid #FAA500;
+}
+.favorito img{
+    margin-right: 8px;
+}
+.favorito a{
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    height: 21px;
+    text-decoration: none;
+    padding: 10px;
+}
+.meu-carrinho{
+    align-items: center;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-right: -10px;
+}
+.meu-carrinho:hover{
+    border: 1px solid #FAA500;
+}
+.meu-carrinho img{
+    margin-right: 8px;
+}
+.meu-carrinho a{
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    height: 21px;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-bar{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 13px 0 14px 0;
+    background: #FFFFFF;
+}
+.nav-bar a:hover{
+    color: #FAA500;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #353535
+}
+.nav-bar img{
+    padding-right: 5px;
+}
