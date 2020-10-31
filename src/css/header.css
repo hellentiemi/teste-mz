@@ -138,3 +138,10 @@ body{
 .nav-bar img{
     padding-right: 5px;
 }
+
+@media only screen and (min-width: 600px){
+    .pit-bar{
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
