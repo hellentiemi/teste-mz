@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    background: #FAFAFA;
+    align-items: center;
+}
+.info{
+    padding: 40px 18px 57px 18px;
+    color: #000000;
+    margin: 0 auto;
+}
+.info .info-content{
+    display: none;
+    padding-bottom: 17px;
+}
+.info .info-content a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+}
+.info .info-icone{
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 24px;
+    display: flex;
+}
+.info .info-text{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    padding-bottom: 17px;
+}
+.info .info-text::after{
+    content: '+';
+    display: inline-block;
+    margin-left: auto;
+}
+.info .info-text.opened::after{
+    content: '-';
+}
+.info-footer{
+    background: #353535; 
+    padding: 24px 30px;
+}
+.rede-social img{
+    padding: 20px;
+    height: 32px;
+    width: 32px;
+}
+
+.rede-social .logo-youtube{
+    height: 22px;
+    width: 32px;
+}
+.bandeiras img{
+    padding: 5px 20px 25px 20px;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    color: #FFFFFF; 
+    font-size: 10px;
+    padding: 0 22px 0 22px;
+}
+.logo img{
+    padding: 10px 22px;
+}

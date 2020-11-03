@@ -1,14 +1,7 @@
-$(document).ready(function () {
-    $(".main-slider").slick({
-        dots: false,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    })
-
-    $(".slider-shelf").slick({
-        dots: false,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1
-    })
-});
+$(function () {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.outerWidth <= 768) {
+        location.href = '/mobile'
+    } else{
+        location.href = '/desktop'
+    }
+})
