@@ -2,7 +2,7 @@
     font-family: 'Titillium Web', sans-serif;
 }
 .container{
-    max-width: 1920px;
+    max-width: 1220px;
     margin: 0 auto;
     position: relative;
     width: calc(100% - 16px);
