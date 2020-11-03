@@ -1,0 +1,299 @@
+.main-slider{
+   display: flex; 
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+   position: relative;
+
+}
+.main-slider .slider-item {
+    position: relative;
+}
+.main-slider .slider-item h1,
+.main-slider .slider-item h2,
+.main-slider .slider-item button{
+    position: absolute;
+    z-index: 1;
+}
+.main-slider .slider-item img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.main-slider .slider-item h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    top: 20%;
+    left: 10%;
+    padding-bottom:24px;
+}
+.main-slider .slider-item h2{
+    font-size: 14px;
+    line-height: 17px;
+    width: 40%;
+    color: #FFFFFF;
+    top: 45%;
+    left: 10%;
+}
+.main-slider .slider-item button{
+    background: #FAA500;
+    border-radius: 5px;
+    color: #FFFFFF;
+    bottom: 20%;
+    border-style: none;
+    cursor: pointer;
+    left: 10%;
+    font-size: 14px;
+    line-height: 17px;
+    width: 76px;
+    height: 28px;
+}
+.main-slider .slick-arrow{
+    background-image: url(../../../mobile/src/img/seta.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 0;
+    border: 0;
+    width: 20px;
+    height: 32px;
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 40%;
+    margin: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+.main-slider .slick-arrow.slick-next{
+    right: 0;
+    left: auto;
+    transform: rotate(0deg);
+}
+.content h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 21px 0;
+}
+.content .content-info{
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    align-items: center;
+    overflow-x: scroll;
+}
+.content-info li{
+    background: #EFEFEF;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    min-width: 300px;
+}
+.content-info li:first-child{
+    margin-left: 20px;
+}
+.content-info::after{
+    content: '1';
+    color: transparent;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.content-info img{
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 22px;
+}
+
+.content-info h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+.content-info p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.marcas p{
+    display: flex;
+    align-items: center;
+    color: #353535;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 40px 0 25px 0;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 37px;
+}
+.marcas .marcas-p{
+    display: flex;
+}
+.marcas-p{
+    width: 100%;
+    overflow-x: scroll;
+}
+.marcas-p li img{
+    min-width: 250px;
+    padding-left:10px ;
+    align-items: center;
+    padding: 0 10px 39px 10px;
+}
+
+.slider-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #353535;
+    margin-bottom: 20px;
+}
+.slider-shelf{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.slider-content{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 10px;
+    padding: 0 18px;
+    min-width: 90%;
+}
+.slider-content img{
+    width: 100%;
+    height: auto;
+}
+.slider-content .cor{
+    width: 27px;
+    height: 27px;
+    background: #fff;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-style: none;
+}
+.slider-content .cor[color="bege"]{
+    background: #DEAC71;
+}
+.slider-content .cor[color="salmao"]{
+    background: #D37164;
+}
+.slider-content .cor[color="azul"]{
+    background: #6497D3;
+}
+.slider-content .cor[color="marine"]{
+    background: #3C3B79;
+}
+.slider-content .cor[color="preto"]{
+    background: #1C1A19;
+}
+.slider-content .cor[color="vermelho"]{
+    background: #D84E4B;
+}
+.slider-content .cor[color="bege claro"]{
+    background: #CFC9B0;
+}
+.slider-content .cor[color="cinza"]{
+    background: #EAE9E5;
+}
+.slider-content .preco{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.slider-content .titulo{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.slider-content .descricao{
+    font-size: 12px;
+    margin-top: 10px;
+    min-height: 40px;
+    line-height: 18px;
+}
+.slider-content .botao{
+    background: #FAA500;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+}
+.main-content{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 18px;
+    padding: 30px 0 40px 0;
+    align-items: center;
+}
+.main-content1 h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+.main-content1 p{
+    color: #000000;
+    padding: 0 30px 24px 0;
+    font-size: 14px;
+    line-height: 21px;
+}
+.main-img img{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+.main-email{
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(240, 240, 240);
+    padding-top: 24px;
+}
+.main-email p{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-right: 20px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email input{
+    background: #EFEFEF;
+    height: 26px;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    color: #353535;
+    width: 60%;
+    padding-left: 24px;
+    font-size: 14px;
+    margin: 40px 10px;
+}
+.email button {
+    background: #FAA500;
+    border-radius: 4px;
+    width: 79px;
+    height: 26px;
+    border-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 40px 10px;
+    border: 1px solid #FAA500;
+    position: relative;
+}
